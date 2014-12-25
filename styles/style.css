@@ -1,0 +1,441 @@
+/* CSS Document */
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  margin: 0px;
+  text-align: center;
+  background: url(    "background1.jpg" ) fixed no-repeat center 50%;
+  font: 70%/1.5em Verdana,Arial;
+}
+
+hr
+{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#wrap
+{
+  width: 760px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #FAEDB0;
+}
+
+#header
+{
+  border-bottom: 10px solid #000000;
+}
+
+#logo
+{
+  width: 760px;
+  height: 86px;
+  background: url(    "AriostoEnsemble.gif" ) no-repeat top left;
+  position: relative;
+  top: 20px;
+  left: 162px;
+}
+
+#flags
+{
+  text-align: right;
+  position: relative;
+  margin: -23px 4px -1px 0;
+}
+
+#flags img
+{
+  border: 0px;
+}
+
+#content
+{
+  float: left;
+  height: auto;
+  min-height: 450px;
+  width: 760px;
+  background-color: #FAEDB0;
+}
+
+/**** leftmenu ****/
+
+#leftmenu
+{
+  padding: 5px 0 0 0;
+  width: 200px;
+  float: left;
+  background-color: #FAEDB0;
+}
+
+#leftmenu #block
+{
+  float: left;
+  width: 200px;
+}
+
+#leftmenu #block a
+{
+  font-weight: bold;
+}
+
+#leftmenu #foto_index
+{
+  margin: 3px 0 0 3px;
+  padding: 4px 0 0 27px;
+  width: 166px;
+  background-image: url(     "open_middle.png" );
+  background-repeat: repeat-y;
+}
+
+#leftmenu #foto_index img
+{
+  cursor: pointer;
+  padding: 4px 4px 6px 6px;
+  margin: 1px 1px 5px 1px;
+  text-align: center;
+  vertical-align: middle;
+  background: url(     "img_back.png" ) no-repeat;
+}
+
+/**** menu ****/
+
+#menu_top
+{
+  background-image: url(     "open_top.png" );
+  width: 193px;
+  height: 23px;
+  margin: 0 0 -3px 3px;
+}
+#menu_bottom
+{
+  background-image: url(     "open_bottom.png" );
+  width: 193px;
+  height: 25px;
+  margin: 0 0 0 3px;
+}
+#menu
+{
+  list-style-type: none;
+  font-size: 1.2em;
+  margin: 3px 0 0 3px;
+  padding: 0 30px 0 30px;
+  width: 137px;
+  color: #000000;
+  background-image: url(     "open_middle.png" );
+  background-repeat: repeat-y;
+}
+
+#menu li
+{
+  padding: 0px;
+}
+
+#menu li a, #menu li a:link, #menu li a:visited, #menu li a:active
+{
+  text-decoration: none;
+  color: #000000;
+}
+
+#menu li a:hover
+{
+  text-decoration: underline;
+}
+
+#menu img
+{
+  border: 0px;
+}
+#menu #projecten
+{
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+#menu #projecten p
+{
+  font-weight: normal;
+}
+
+#menu #nieuws
+{
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+#menu #nieuws p
+{
+  font-weight: normal;
+}
+
+/**** social ****/
+
+.social
+{
+    text-align: center;
+}
+.social img
+{
+    border: 0;
+}
+
+/**** shop ****/
+#form_shop
+{
+  width: 100%;
+}
+
+#form_shop label
+{
+  width: 100px;
+  display: inline-block;
+}
+
+#form_shop fieldset
+{
+  padding: 10px;
+}
+
+#form_shop .form_shop_input24
+{
+  width: 24px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.form_shop_col1
+{
+  width: 125px;
+  vertical-align: top;
+}
+.form_shop_col2
+{
+  width: 300px;
+  padding-right: 10px;
+  vertical-align: top;
+}
+.form_shop_col3
+{
+  width: 50px;
+  padding-right: 10px;
+  vertical-align: bottom;
+  padding-bottom: 4px;
+}
+.form_shop_col4
+{
+  width: 50px;
+  vertical-align: bottom;
+}
+.form_shop_input300
+{
+  width: 300px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.form_shop_input50
+{
+  width: 50px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.form_shop_input150
+{
+  width: 147px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.form_shop_input25
+{
+  width: 25px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.form_shop_textarea
+{
+  margin-top: 2px;
+  width: 100%;
+}
+
+#form_shop_submit
+{
+  width: 150px;
+}
+
+#form_shop_cancel
+{
+  position: relative;
+  left: 250px;
+  width: 100px;
+}
+
+/**** concerten ****/
+
+#concerten li
+{
+  margin-top: 5px;
+}
+/**** contact ****/
+
+#form_contact
+{
+  width: 100%;
+}
+
+#form_contact label
+{
+  width: 100px;
+  display: inline-block;
+}
+
+#form_contact fieldset
+{
+  padding: 10px;
+}
+
+#form_contact .form_contact_input200
+{
+  width: 200px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+#form_contact .form_contact_input350
+{
+  width: 350px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+#form_contact .form_contact_textarea
+{
+  width: 90%;
+}
+
+#form_contact .form_contact_submit
+{
+  width: 100px;
+}
+
+/**** nieuws ****/
+
+#nieuws li
+{
+  list-style-position: inside;
+  list-style-type: square;
+  margin: 0 0 8px 0;
+  min-height: 75px;
+}
+
+.nieuwsfoto
+{
+  float: right;
+  margin: 1px 0px 3px 10px;
+  border: solid 1px black;
+}
+
+/**** maincontent ****/
+
+#maincontent
+{
+  padding: 5px 20px 0 10px;
+  width: 530px;
+  float: right;
+  height: auto;
+  min-height: 500px;
+  background-color: #FAEDB0;
+  text-align: justify;
+}
+
+#maincontent h3
+{
+  padding: 35px 10px 10px 0px;
+}
+
+#maincontent p
+{
+  padding: 6px 0px;
+}
+
+#maincontent ul
+{
+  margin-left: 18px;
+}
+
+#maincontent img
+{
+  width: auto;
+  height: auto;
+}
+
+#maincontent a, #maincontent a:visited, #maincontent a:link, #maincontent a:active
+{
+  text-decoration: underline;
+  color: #000000;
+}
+#maincontent a:hover
+{
+  text-decoration: underline;
+  color: #0000ff;
+}
+.foto
+{
+  float: right;
+  margin: 10px 0 10px 10px;
+  border: solid 5px black;
+}
+.link
+{
+  margin: 20px 0 0 0;
+}
+
+/**** footer ****/
+
+#footer
+{
+  width: 100%;
+  float: left;
+  height: 75px;
+  background-color: #FAEDB0;
+}
+
+#footer ul
+{
+  text-align: center;
+  list-style-type: none;
+  margin-top: 25px;
+  width: 100%;
+}
+
+#footer ul li
+{
+  padding: 0 20px 0 20px;
+  display: inline;
+}
+
+#footer a, #footer a:visited, #footer a:link, #footer a:active
+{
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+}
+#footer a:hover
+{
+  font-weight: bold;
+  text-decoration: none;
+  color: #0000ff;
+}
+
+/* beeld */
+
+#beeld
+{
+}
+#beeld .beeld_grouptitle
+{
+  margin-top: 10px;
+  font-weight: bold;
+  clear: both;
+}
